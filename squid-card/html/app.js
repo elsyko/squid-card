@@ -1,8 +1,8 @@
 const closeKey = [27];
 
 window.addEventListener("message", function(event) {
-    $('body').hide();
     let action = event.data.action
+    
     if (action == "show") {
         $('body').show();
 
